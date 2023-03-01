@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- nav bar -->
+    <div id="nav">
+      <div id="bar">
+        <a class="active" href="#">About</a>
+        <a href="#project">Project</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div id="imagecontainer">
+        <img class="s1" src="./img/star1.svg" />
+        <img class="s2" src="./img/star2.svg" />
+        <img class="c1" src="./img/circle1.svg" />
+      </div>
+    </div>
+
+    <!-- aboutcontainer -->
+    <main>
+      <section class="aboutContainer">
+        <div id="hello">
+          <h1>Hi, my name is Alice Duan</h1>
+          <p>
+            I am a forth year student interested in Mathmatics, web development
+            and designing. I also love to make paintings and little crafts in my
+            free time, fell free to view them under the art work poster section.
+            Have fun(^-^)
+          </p>
+        </div>
+        <div id="pictureContainer">
+          <img class="me" src="./img/me.svg" />
+        </div>
+      </section>
+
+      <section class="aboutContainer">
+        <div id="education">
+          <h1>Education:</h1>
+        </div>
+
+        <div id="educontainer">
+          <p>University of British Columbia</p>
+          <p>Program: Bachelor of science</p>
+          <p>Major: Mathematical science</p>
+        </div>
+      </section>
+
+      <!-- project board -->
+      <section class="projectContainer" id="project">
+        <h1>Project Board</h1>
+
+        <div class="projectbox">
+          <div class="projectname">projectname</div>
+          <div class="projectitem">
+            <div class="discription">
+              <p>Description:</p>
+              <p>
+                this project is intended to help student to calculate their
+                grade.
+              </p>
+            </div>
+            <div class="tagContainer">
+              <div class="tag">Html</div>
+              <div class="tag">JavaScript</div>
+            </div>
+          </div>
+
+          <div class="linkbutton">
+            <a href="https://google.com">LINK</a>
+          </div>
+          <div class="linkbutton">
+            <a href="https://github.com/yixinduang/GradeCalculator">Git</a>
+            <img class="git" src="./img/Vector.svg" />
+          </div>
+        </div>
+      </section>
+
+      <!-- contactcontainer -->
+      <section class="contactContainer" id="contact">
+        <form id="contactForm">
+          <div id="contactMessage">Contact Me By Email !</div>
+          <textarea id="message"></textarea>
+          <button type="submit" class="sendbutton">send</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
