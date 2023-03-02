@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   background-color: #1d3557;
@@ -72,6 +76,15 @@ div {
   z-index: 1;
 }
 
+.active {
+  color: aliceblue;
+}
+
+.unactive {
+  color: aliceblue;
+  text-decoration: none;
+}
+
 /* body part this part need to change for different divice size*/
 
 .aboutContainer {
@@ -128,7 +141,7 @@ div {
 .projectbox {
   max-width: 896px;
   width: 80%;
-  height: 384px;
+
   background: rgba(0, 0, 0, 0.35);
   border-radius: 30px;
   margin-top: 100px;
@@ -159,6 +172,7 @@ div {
 
 .tagContainer {
   width: 100%;
+  color: aliceblue;
 }
 
 .tag {
@@ -174,6 +188,15 @@ div {
     1000% 50%,
     calc(100% - 30px) 0
   );
+  margin: 10px;
+}
+
+.projectimage {
+  width: 100%;
+}
+
+.buttonContainer {
+  margin-left: 0px;
   margin: 10px;
 }
 

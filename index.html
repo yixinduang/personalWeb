@@ -5,16 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
-    <script type="text/javascript" src="main.js"></script>
+    <script src="main.js"></script>
     <title>Document</title>
   </head>
   <body>
     <!-- nav bar -->
     <div id="nav">
       <div id="bar">
-        <a class="active" href="#">About</a>
-        <a href="#project">Project</a>
-        <a href="#contact">Contact</a>
+        <a class="active" onclick="active(this)" href="#">About</a>
+        <a class="unactive" href="#project" onclick="active(this)">Project</a>
+        <a class="unactive" href="#contact" onclick="active(this)">Contact</a>
       </div>
       <div id="imagecontainer">
         <img class="s1" src="./img/star1.svg" />
@@ -65,19 +65,28 @@
                 this project is intended to help student to calculate their
                 grade.
               </p>
+              <div class="tagContainer">
+                <div class="tag">Html</div>
+                <div class="tag">JavaScript</div>
+              </div>
             </div>
             <div class="tagContainer">
-              <div class="tag">Html</div>
-              <div class="tag">JavaScript</div>
+              <img class="projectimage" src="./img/gc.png" />
             </div>
           </div>
 
-          <div class="linkbutton">
-            <a href="https://google.com">LINK</a>
-          </div>
-          <div class="linkbutton">
-            <a href="https://github.com/yixinduang/GradeCalculator">Git</a>
-            <img class="git" src="./img/Vector.svg" />
+          <div class="buttonContainer">
+            <div class="linkbutton">
+              <a href="https://google.com">LINK</a>
+            </div>
+            <div class="linkbutton">
+              <a
+                target="_blank"
+                href="https://github.com/yixinduang/GradeCalculator"
+                >Git</a
+              >
+              <img class="git" src="./img/Vector.svg" />
+            </div>
           </div>
         </div>
       </section>
