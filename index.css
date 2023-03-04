@@ -159,6 +159,10 @@ body {
   margin: 10px;
 }
 
+.discriptionTitle {
+  font-weight: bold;
+}
+
 .projectname {
   margin: 10px;
   font-weight: 500;
