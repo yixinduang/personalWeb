@@ -57,16 +57,19 @@
         <h1>Project Board</h1>
 
         <div class="projectbox">
-          <div class="projectname">projectname</div>
+          <div class="projectname">GradeCalculator</div>
           <div class="projectitem">
             <div class="discription">
               <p>Description:</p>
               <p>
-                this project is intended to help student to calculate their
-                grade.
+                This project is intended to help students with the calculation 
+                of their grades. This project uses context API for sharing data 
+                between different pages. CSS flexbox is used to create a responsive
+                 website. Implemented React BrowserRouter to enable the user to navigate
+                  from page to page.
               </p>
               <div class="tagContainer">
-                <div class="tag">Html</div>
+                <div class="tag">Ract</div>
                 <div class="tag">JavaScript</div>
               </div>
             </div>
@@ -77,7 +80,7 @@
 
           <div class="buttonContainer">
             <div class="linkbutton">
-              <a href="https://google.com">LINK</a>
+              <a target="_blank" href="https://gradecalculator-leaf44.netlify.app/">LINK</a>
             </div>
             <div class="linkbutton">
               <a
@@ -89,13 +92,123 @@
             </div>
           </div>
         </div>
+        <!-- project 2 -->
+        <div class="projectbox">
+          <div class="projectname">ArtWorkPoster</div>
+          <div class="projectitem">
+            <div class="discription">
+              <p>Description:</p>
+              <p>
+                A simple web page that contains some art works I've created during my lifetime：）
+              </p>
+              <div class="tagContainer">
+                <div class="tag">Html</div>
+                <div class="tag">css</div>
+              </div>
+            </div>
+            <div class="tagContainer">
+              <img class="projectimage" src="./img/AP.png" />
+            </div>
+          </div>
+
+          <div class="buttonContainer">
+            <div class="linkbutton">
+              <a target="_blank" href="https://www.students.cs.ubc.ca/~aduan/Artwork_poster/poster.html">LINK</a>
+            </div>
+            <div class="linkbutton">
+              <a
+                target="_blank"
+                href="https://github.com/yixinduang/ArtWorkPoster"
+                >Git</a
+              >
+              <img class="git" src="./img/Vector.svg" />
+            </div>
+          </div>
+        </div>
+        <!-- project 3 -->
+        <div class="projectbox">
+          <div class="projectname">Factors that affects the fertility rate</div>
+          <div class="projectitem">
+            <div class="discription">
+              <p>Description:</p>
+              <p>
+                This is a group project aimed to look at the effects of GDP, population, province, marriage rate, average income, and employment rate on fertility and the relationship between them.
+
+The team members are: Manqin Cai, Alice Duan, Jack Fan.
+              </p>
+              <div class="tagContainer">
+                <div class="tag">R</div>
+                <div class="tag">Regression</div>
+              </div>
+            </div>
+            <div class="tagContainer">
+              <img class="projectimage" src="./img/FF.png" />
+            </div>
+          </div>
+
+          <div class="buttonContainer">
+            <div class="linkbutton">
+              <a target="_blank" href="https://github.com/yixinduang/-Factors-affects-fertility-rate">LINK</a>
+            </div>
+            <div class="linkbutton">
+              <a
+                target="_blank"
+                href="https://github.com/yixinduang/-Factors-affects-fertility-rate"
+                >Git</a
+              >
+              <img class="git" src="./img/Vector.svg" />
+            </div>
+          </div>
+        </div>
+        <!-- project 4 -->
+        <div class="projectbox">
+          <div class="projectname">Restaurant analysis</div>
+          <div class="projectitem">
+            <div class="discription">
+              <p>Description:</p>
+              <p>
+                This project onstructed linear programing model to find the optimum meal plan for UBC students.
+
+Restaurant ratings, distance from school, and pricing are taken into consideration.
+
+Python PuLP pack was used to solve the Linear programming model.
+
+This project was done with Dexin Qian.
+              </p>
+              <div class="tagContainer">
+                <div class="tag">Python</div>
+                <div class="tag">LinearProgramming</div>
+              </div>
+            </div>
+            <div class="tagContainer">
+              <img class="projectimage" src="./img/RA.png" />
+            </div>
+          </div>
+
+          <div class="buttonContainer">
+            <div class="linkbutton">
+              <a target="_blank" href=https://github.com/yixinduang/UBC--Restaurant-analysis>LINK</a>
+            </div>
+            <div class="linkbutton">
+              <a
+                target="_blank"
+                href=https://github.com/yixinduang/UBC--Restaurant-analysis
+                >Git</a
+              >
+              <img class="git" src="./img/Vector.svg" />
+            </div>
+          </div>
+        </div>
       </section>
 
       <!-- contactcontainer -->
       <section class="contactContainer" id="contact">
-        <form id="contactForm">
+        <form
+          id="contactForm"
+          method="POST"
+        >
           <div id="contactMessage">Contact Me By Email !</div>
-          <textarea id="message"></textarea>
+          <textarea id="message" name="message"></textarea>
           <button type="submit" class="sendbutton">send</button>
         </form>
       </section>

@@ -7,9 +7,9 @@ body {
   background-color: #1d3557;
 }
 
-div {
+/* div {
   border: solid red;
-}
+} */
 
 #bar {
   background-color: #0e2240;
@@ -102,6 +102,12 @@ div {
   max-width: 500px;
   color: aliceblue;
   margin: 0;
+}
+
+#hello > p {
+}
+
+#hello > h1 {
 }
 
 #pictureContainer {
