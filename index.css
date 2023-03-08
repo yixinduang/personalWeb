@@ -29,12 +29,24 @@ body {
 
 /* for the images */
 #imagecontainer {
+  /* position: relative;
+  width: 30%;
+  height: 20px; */
   position: relative;
 }
 
 #imagecontainer > img {
   top: 0px;
   position: absolute;
+}
+
+@media only screen and (max-width: 600px) {
+  #imagecontainer > img {
+    height: 60px;
+    display: flex;
+    top: 0px;
+    position: absolute;
+  }
 }
 
 .s1 {
@@ -95,9 +107,6 @@ body {
   color: aliceblue;
 }
 
-@media only screen and (max-width: 600px) {
-}
-
 #hello {
   max-width: 500px;
   color: aliceblue;
@@ -117,6 +126,28 @@ body {
 }
 .me {
   width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .aboutContainer {
+    height: 100vh;
+    place-items: center;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+  }
+
+  #hello {
+    max-width: 300px;
+
+    margin-top: 200px;
+  }
+
+  #pictureContainer {
+    display: flex;
+    width: 100%;
+    max-width: 300px;
+  }
 }
 
 /* education part make changes for different divices*/
@@ -178,6 +209,17 @@ body {
   width: 100;
   display: grid;
   grid-template-columns: 6fr 4fr;
+}
+
+@media only screen and (max-width: 600px) {
+  .projectitem {
+    background: #c8cdff;
+    min-height: 207px;
+    width: 100;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+  }
 }
 
 .tagContainer {
